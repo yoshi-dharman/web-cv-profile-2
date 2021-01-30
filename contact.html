@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>My CV Profile</title>
+
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+   
+   <!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"> -->
+   <!-- <script src="bootstrap/js/bootstrap.bundle.min.js"></script> -->
+
+   <link rel="stylesheet" href="css/my.css">
+   <link rel="icon" href="img/Logo.png">
+</head>
+<body>
+
+   <div class="d-flex flex-column flex-lg-row justify-content-between">
+      <nav class="navbar position-lg-fixed navbar-expand-lg navbar-dark bg-dark">    <!-- menambah block jika sudah widh lg kira kira 90px -->
+         <div class="container-fluid nav-lg d-lg-flex flex-lg-column flex-row py-lg-3">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="img/Logo.png" width="70px" alt=""></a>
+
+            <div class="w-100 d-lg-none"></div>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+               <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-lg-flex flex-lg-column">
+                  <li class="nav-item">
+                  <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                  <a class="nav-link " href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link " href="portofolio.html">Portofolio</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link active my-nav-selected" href="contact.html">Contact</a>
+                  </li>
+               </ul>
+            </div>
+
+            <div></div>
+            
+         </div>
+      </nav>
+
+      <div class="fakeNav"></div>
+
+      <div class="container-fluid d-flex flex-column justify-content-between vh-100">
+        <div class="container-fluid mb-3">
+         <div class="row m-5">
+            <div class="col-12 text-center mt-5">
+                <h1 class="fw-bold">Getting Closer With <span class="c-purple">Me</span></h1>
+            </div>
+         </div>
+
+         <div class="row mx-5 justify-content-center">
+             <div class="col-lg-6">
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Your name</label>
+                        <input id="input-name" required placeholder="  (e.g. Maikel)" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="text">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                      </div>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email address</label>
+                      <input id="input-email" required placeholder="  (e.g. Maikel@mail.com)" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Describe Your Question</label>
+                      <textarea id="input-question" class="form-control" name="" id="" cols="30" rows="10" placeholder="  (e.g. How are you ?)" required></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button id="btn-sendToMe" type="submit" class="btn btn-outline-secondary rounded-pill btn-lg c-purple my-btn-theme px-5">Send To Me</button>
+                    </div> 
+                  </form>
+             </div>
+         </div>
+        </div>
+
+        <div class="row bg-dark ">
+            <footer class="w-100 text-white text-center py-2 px-3 bg-dark">© 2021 Developed With <span class="c-purple">♥</span> by Yoshi Dharman</footer>
+        </div>
+         
+
+      </div>    <!-- end Container-->
+
+      
+
+   </div>
+   
+    <script src="js/my.js"></script>
+</body>
+</html>
